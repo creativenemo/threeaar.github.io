@@ -41,7 +41,27 @@ canonical: https://heliumjk.github.io
       <div class="container">
         <h4 class="sub-title text-center">Hot Products</h4>
       </div>
+<!---trial-->
+<div class="row">
+  <!-- Start card -->
+  <div class="col-sm-6 col-md-3">
+    {% for post in site.posts.core-samples %} 
+    <div class="card">
+      {% if post.img %} 
 
+      <a  href="portfolio.html"> 
+      <img class="card-img-top" src="{{ BASE_PATH }}/assets/images/card/img-01.jpg" alt="">
+      </a>
+      <div class="card-block">
+        {% endif %}
+        <h3 class="card-title">{{ post.title }}</h3>
+        <p class="card-text">{{ post.excerpt }}</p>
+      
+      </div>
+      {% endfor %} 
+    </div>
+  </div>
+</div>
       <!-- posts carousel -->
       <section id="blog">
         <div class="container">                              
