@@ -7,8 +7,8 @@ highlighter: null
 markdown: kramdown
 extensions: [fenced_code_blocks]
 excerpt_separator: "<!--more-->"
-url: "https://threeaar.github.io"
-baseurl: "https://threeaar.github.io"
+url: ""
+baseurl: ""
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
@@ -18,7 +18,7 @@ data-ad-slot: 2973388149
 data-ad-client: ca-pub-9204963049240271
 google_ad_client: ca-pub-9204963049240271
 
-post_limit: 5
+post_limit: 15
 
 
 title : Three AAR
@@ -28,13 +28,7 @@ author :
   site: https://creativenemo.com/threeaar.github.io/
   description : I&#39;m a web master interested in communication applied to web marketing.
   image : social-image.png
-  email : lantoniotrento@gmail.com
-  github : antoniotrento
-  twitter : lantoniotrento
-  facebook: lantoniotrento
-  linkedin: antoniotrento
-  instagram: lantoniotrento
-  pinterest: antoniotrento
+ 
   feedburner : 
 
 twitter_username: lantoniotrento
@@ -96,6 +90,11 @@ JB :
   atom_path : /atom.xml
   rss_path : /rss.xml
 
+  collections:
+    products:
+      output: true
+    drafts:
+      output: true
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
   # Set 'provider' to false to turn commenting off globally.

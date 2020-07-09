@@ -9,6 +9,7 @@ canonical: https://heliumjk.github.io
 ---
 {% include JB/setup %}
 <!-- Content Area Start -->
+
 <div id="content">
       <!-- sliders -->
       <div id="headers">
@@ -44,25 +45,53 @@ canonical: https://heliumjk.github.io
 <!---trial-->
 <div class="container">
 <div class="row">
-  <!-- Start card -->
-  {% for post in site.posts %} 
-  <div class="col-sm-6 col-md-3">
-    
-    <div class="card">
-      {% if post.img %} 
+  <div class="col-md-4">
 
+    <div class="card">
       <a  href="portfolio.html"> 
-      <img class="card-img-top" src="{{ BASE_PATH }}/assets/images/card/img-01.jpg" alt="">
+      <img class="card-img-top" src="assets/images/prod1.jpg" alt="">
       </a>
       <div class="card-block">
-        {% endif %}
-        <h3 class="card-title">{{ post.title }}</h3>
-        <p class="card-text">{{ post.excerpt }}</p>
+        <h3 class="card-title">Short Blast Filters/Powder Coating Filters        </h3>
+        <p class="card-text">The Short Blast Filter cartridges or Post Filters offered by us are used in Powder Coating Process
+        </p>
       
       </div>
-      {% endfor %}
     </div>
   </div>
+  <div class="col-md-4">
+
+    <div class="card">
+      <a  href="portfolio.html"> 
+      <img class="card-img-top" src="assets/images/prod2.jpg" alt="">
+      </a>
+      <div class="card-block">
+        <h3 class="card-title">Filter Cartridges
+        </h3>
+        <p class="card-text">We offer high grade filter cartridges that are made using advanced machinery that makes them perfect for filtration application.
+        </p>
+      
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+
+    <div class="card">
+      <a  href="portfolio.html"> 
+      <img class="card-img-top" src="assets/images/prod3.jpg" alt="">
+      </a>
+      <div class="card-block">
+        <h3 class="card-title">Filter Papers
+
+        </h3>
+        <p class="card-text">We are amongst the top Filter Papers manufacturers and suppliers in India.
+
+        </p>
+      
+      </div>
+    </div>
+  </div>
+
 </div>
 </div> 
       <div class="mb-60"></div>
@@ -98,20 +127,20 @@ canonical: https://heliumjk.github.io
       <div class="mb-60"></div>
 	
       <!-- Product Listing -->
-      <div class="container">
+      <div class="container"></div>
       <section id="portfolio">
         <div class="container">
           
             <h4 class="sub-title text-center">Our Products</h4>
          
           <ul class="row portfolio list-unstyled" id="grid">
-            {% for prod in site.drafts %} 
+            {% for prod in site.posts %} 
             <li class="col-xs-6 col-md-4 project">
               <figure>
 
                   {% if prod.img %} 
                   <a class="left-link" href="portfolio.html">
-                  <img src="assets/images/portfolio/{{ prod.img }}" alt="">
+                  <img src="assets/images/{{ prod.img }}" alt="">
                   </a>
                 
               </figure>
@@ -126,8 +155,7 @@ canonical: https://heliumjk.github.io
             <!-- project -->
           </ul>
         </div>
-      </section> 
-    </div>    
+      </section>     
       <!-- End Product-->      	
 	
 	
