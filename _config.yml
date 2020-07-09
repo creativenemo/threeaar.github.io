@@ -7,8 +7,8 @@ highlighter: null
 markdown: kramdown
 extensions: [fenced_code_blocks]
 excerpt_separator: "<!--more-->"
-url: https://creativenemo.com/threeaar.github.io/
-baseurl: ""
+url: "https://threeaar.github.io"
+baseurl: "https://threeaar.github.io"
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
