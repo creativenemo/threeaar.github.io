@@ -1,9 +1,9 @@
 ---
 layout: post
 category : docs
-tagline: "Example helium post in markdown and html classes"
+tagline: "Filter Cartridges"
 tags : [jekyll, code, markdown]
-img : markdown-samples.jpg
+img : prod2.jpg
 img2 : 
 img3 : 
 author : Antonio Trento
