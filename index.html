@@ -45,7 +45,7 @@ canonical: https://heliumjk.github.io
 <div class="row">
   <!-- Start card -->
   <div class="col-sm-6 col-md-3">
-    {% for post in site.posts.core-samples %} 
+    {% for post in site.posts %} 
     <div class="card">
       {% if post.img %} 
 
@@ -62,24 +62,7 @@ canonical: https://heliumjk.github.io
     </div>
   </div>
 </div>
-      <!-- posts carousel -->
-      <section id="blog">
-        <div class="container">                              
-          <div id="posts-carousel" class="owl-carousel">
-           {% for post in site.posts.core-samples %}     
-            <div class="blog-block blog block carousel-post">
-             {% if post.img %}   
-             <a  href="portfolio.html">       
-              <img src="assets/images/{{ post.img }}" alt="">
-              </a>
-             {% endif %}           
-              <h5>{{ post.title }}</h5>
-              <p class="project-description">{{ post.excerpt }}</p>
-            </div>
-           {% endfor %}     
-          </div>              
-        </div>
-      </section>
+      
       <div class="mb-60"></div>
             <div class="mb-60"></div>
 <!---About US-->
