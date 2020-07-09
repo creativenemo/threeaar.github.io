@@ -17,7 +17,7 @@ canonical: https://fullit.github.io
 
 ---
 {% include JB/setup %}
-Markdown samples usefull when you start write your blog 🎉 🎆.
+We offer high grade filter cartridges that are made using advanced machinery that makes them perfect for filtration application.
 
 <!--more-->
 

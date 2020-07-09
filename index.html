@@ -48,11 +48,13 @@ canonical: https://heliumjk.github.io
           <div id="posts-carousel" class="owl-carousel">
            {% for post in site.posts %}     
             <div class="blog-block blog block carousel-post">
-             {% if post.img %}           
+             {% if post.img %}   
+             <a  href="portfolio.html">       
               <img src="assets/images/{{ post.img }}" alt="">
+              </a>
              {% endif %}           
               <h5>{{ post.title }}</h5>
-              <p>{{ post.excerpt }}</p>
+              <p class="project-description">{{ post.excerpt }}</p>
             </div>
            {% endfor %}     
           </div>              
@@ -97,16 +99,14 @@ canonical: https://heliumjk.github.io
             <h4 class="sub-title text-center">Our Products</h4>
          
           <ul class="row portfolio list-unstyled" id="grid">
-            {% for prod in site.posts %} 
+            {% for prod in site.products %} 
             <li class="col-xs-6 col-md-4 project">
               <figure>
 
-                <div class="hovereffect">
                   {% if prod.img %} 
                   <a class="left-link" href="portfolio.html">
                   <img src="assets/images/portfolio/{{ prod.img }}" alt="">
                   </a>
-                    </div>
                 
               </figure>
            

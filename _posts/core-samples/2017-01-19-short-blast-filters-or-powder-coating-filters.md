@@ -18,7 +18,7 @@ canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
 
-An example post about code insertion into posts.
+The Short Blast Filter cartridges or Post Filters offered by us are used in Powder Coating Process
 
 <!--more-->
 ## Testing code snippet highlight
