@@ -1,9 +1,9 @@
 ---
 layout: post
 category : lessons
-tagline: "Hello world post on helium jekyll"
+tagline: "Filter Papers"
 tags : [intro, beginner, jekyll, tutorial]
-img : helloworld.jpg
+img : prod3.jpg
 img-mobile : 
 img2 : 
 img3 : 

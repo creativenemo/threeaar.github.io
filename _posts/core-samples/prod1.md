@@ -1,9 +1,9 @@
 ---
 layout: post
 category : lessons
-tagline: "Example how post on Jekyll Helium"
+tagline: "Short Blast Filters/Powder Coating Filters"
 tags : [jekyll, code]
-img : syntax-hightlight.jpg
+img : prod1.jpg
 img2 : 
 img3 : 
 author : Antonio Trento
