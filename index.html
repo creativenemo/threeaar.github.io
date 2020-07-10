@@ -1,4 +1,13 @@
---- layout: index title: Three AAR tagline: A Dwarkason Company css: js: sliders.js keywords: filters, paramount filters canonical: https://heliumjk.github.io --- {% include JB/setup %}
+---
+layout: index
+title: Three AAR
+tagline: A Dwarkason Company
+css: 
+js: sliders.js
+keywords: filters, paramount filters
+canonical: https://heliumjk.github.io
+---
+{% include JB/setup %}
 <!-- Content Area Start -->
 
 <div id="content">
@@ -126,7 +135,7 @@
 
 <!-- Product Listing -->
 <div class="container"></div>
-<section id="portfolio">
+<section id="portfolio-2">
     <div class="container">
 
         <h4 class="sub-title text-center">Our Products</h4>
@@ -138,7 +147,7 @@
 
                     {% if prod.img %}
                     <a class="left-link" href="portfolio.html">
-                        <img src="assets/images/prod1.jpg" alt="">
+                        <img src="assets/images/{{ prod.img }}" alt="">
                     </a>
 
                 </figure>
