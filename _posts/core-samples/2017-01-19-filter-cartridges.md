@@ -3,7 +3,7 @@ layout: post
 category : docs
 tagline: "Filter Cartridges"
 tags : [jekyll, code, markdown]
-img : prod2.jpg
+img : prod1.jpg
 img2 : 
 img3 : 
 author : Antonio Trento
